@@ -198,7 +198,7 @@ nav > ul > li > ul > li > ul > li {
 /* TOC */
 @page toc:left{
     @top-left-corner {
-        content: url("https://help.mylectra.com/img/asset/Logo_Lectra_def_CMJN_black-red3.png");
+        content: url("https://help.mylectra.com/img/asset/Logo_Lectra_def_RVB_black-red.png");
         padding: 0 50px;
     }
 
@@ -247,7 +247,7 @@ nav > ul > li > ul > li > ul > li {
 @page toc:right{
     @top-left-corner {
         padding: 0 50px;
-        content: url("https://help.mylectra.com/img/asset/Logo_Lectra_def_CMJN_black-red3.png");
+        content: url("https://help.mylectra.com/img/asset/Logo_Lectra_def_RVB_black-red.png");
     }
 
     @top-left{
@@ -296,7 +296,7 @@ nav > ul > li > ul > li > ul > li {
 @page:left{
     @top-left-corner {
         padding: 0 50px;
-        content: url("https://help.mylectra.com/img/asset/Logo_Lectra_def_CMJN_black-red3.png");
+        content: url("https://help.mylectra.com/img/asset/Logo_Lectra_def_RVB_black-red.png");
     }
 
     @top-left{
@@ -344,7 +344,7 @@ nav > ul > li > ul > li > ul > li {
 @page:right{
     @top-left-corner {
         padding: 0 50px;
-        content: url("https://help.mylectra.com/img/asset/Logo_Lectra_def_CMJN_black-red3.png");
+        content: url("https://help.mylectra.com/img/asset/Logo_Lectra_def_RVB_black-red.png");
     }
 
     @top-left{
