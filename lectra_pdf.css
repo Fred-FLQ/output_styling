@@ -198,8 +198,9 @@ nav > ul > li > ul > li > ul > li {
 /* TOC */
 @page toc:left{
     @top-left-corner {
-        content: url("https://help.mylectra.com/img/asset/Logo_Lectra_def_RVB_black-red.png");
-        padding: 0 50px;
+        background: center / 200px no-repeat url("https://help.mylectra.com/img/asset/Logo_Lectra_def_RVB_black-red.png");
+        padding-right: 200px;
+        margin-right: -200px;
     }
 
     @top-left{
@@ -246,8 +247,9 @@ nav > ul > li > ul > li > ul > li {
 
 @page toc:right{
     @top-left-corner {
-        padding: 0 50px;
-        content: url("https://help.mylectra.com/img/asset/Logo_Lectra_def_RVB_black-red.png");
+        background: center / 200px no-repeat url("https://help.mylectra.com/img/asset/Logo_Lectra_def_RVB_black-red.png");
+        padding-right: 200px;
+        margin-right: -200px;
     }
 
     @top-left{
@@ -295,8 +297,9 @@ nav > ul > li > ul > li > ul > li {
 /* BODY */
 @page:left{
     @top-left-corner {
-        padding: 0 50px;
-        content: url("https://help.mylectra.com/img/asset/Logo_Lectra_def_RVB_black-red.png");
+        background: center / 200px no-repeat url("https://help.mylectra.com/img/asset/Logo_Lectra_def_RVB_black-red.png");
+        padding-right: 200px;
+        margin-right: -200px;
     }
 
     @top-left{
@@ -343,8 +346,9 @@ nav > ul > li > ul > li > ul > li {
 
 @page:right{
     @top-left-corner {
-        padding: 0 50px;
-        content: url("https://help.mylectra.com/img/asset/Logo_Lectra_def_RVB_black-red.png");
+        background: center / 200px no-repeat url("https://help.mylectra.com/img/asset/Logo_Lectra_def_RVB_black-red.png");
+        padding-right: 200px;
+        margin-right: -200px;
     }
 
     @top-left{
