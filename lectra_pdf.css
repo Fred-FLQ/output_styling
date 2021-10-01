@@ -197,9 +197,7 @@ nav > ul > li > ul > li > ul > li {
 
 /* TOC */
 @page toc:left{
-    @top-left-corner {
-        padding: 0 50px;
-    }
+
 
     @top-left{
         content: none;
