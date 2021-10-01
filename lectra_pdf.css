@@ -127,6 +127,7 @@
 body,
 article,
 .body * {
+    color: #454545;
     font-family: Arial, sans-serif;
     line-height: 1.1em;
     letter-spacing: normal;
