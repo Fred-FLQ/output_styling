@@ -455,7 +455,6 @@ li.choice::before {
 /* Style any note type. */
 .note {
     margin-top: 20px !important;
-    line-height: 200%;
 }
 
 .note_danger {
