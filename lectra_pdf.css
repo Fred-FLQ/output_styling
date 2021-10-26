@@ -43,7 +43,7 @@
     bottom: 25px;
     left: 15mm;
   }
-  
+                          
   /* Define where the actual logo is placed in the <div class="logo-container"> */
   .logo {
     display: block;
@@ -325,6 +325,24 @@ article > .topictitle1 {
   =================*/
 
   /* DITA *******************************************************************/
+
+/*=================
+  - FIGURE IMAGE 
+  =================*/
+
+/* Style inline images (except in commands already done in source CSS */
+.p > .image,
+.p  img {
+  display: inline-block;
+  max-height: 16px;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
 
 /* Styling callouts */
 
