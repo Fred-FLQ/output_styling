@@ -448,11 +448,14 @@ li.choice::before {
   text-align: center;
 }
 
+/*=================
+  - NOTE 
+  =================*/
 
 /* Style any note type. */
 .note {
     margin-top: 20px !important;
-    padding: 15px;
+    padding: 150px;
 }
 
 .note_danger {
