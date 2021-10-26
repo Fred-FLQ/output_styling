@@ -336,16 +336,13 @@ article > .topictitle1 {
 .stepresult  img,
 .note > .image {
   display: inline-block;
-  max-height: 16px;
+  max-height: 14px;
   border: none;
   padding: 0px;
   margin: 0px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  position: relative;
-  top: 5px;
-  left: 5px;
 }
 
 
