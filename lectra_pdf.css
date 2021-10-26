@@ -333,7 +333,8 @@ article > .topictitle1 {
 /* Style inline images (except in commands already done in source CSS */
 .p > .image,
 .stepresult > .image,
-.stepresult  img {
+.stepresult  img,
+.note > .image {
   display: inline-block;
   max-height: 16px;
   border: none;
