@@ -332,6 +332,7 @@ article > .topictitle1 {
 
 /* Style inline images (except in commands already done in source CSS */
 .p > .image,
+.p  img,
 .stepresult > .image,
 .stepresult  img{
   display: inline-block;
