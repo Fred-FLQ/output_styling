@@ -334,7 +334,8 @@ article > .topictitle1 {
 .body > .p > .image,
 .stepresult > .image,
 .stepresult  img,
-.note > .image {
+.note > .image,
+.context > .image {
   display: inline-block;
   max-height: 14px;
   border: none;
