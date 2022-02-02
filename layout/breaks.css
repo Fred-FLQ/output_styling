@@ -78,7 +78,7 @@ body.break_topics article:has(.topictitle1) {
   page-break-after: always;
 }
 
-/* You can assign the @outputclass="break_avoid" attribute to prevent breaking an element over multiple pages. */
+/* You can assign the @outputclass="break_avoid" attribute to prevent breaking an element over multiple pages.
 .break_avoid {
   break-inside: avoid;
 } */
