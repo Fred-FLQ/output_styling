@@ -509,11 +509,11 @@ tr > td {
     display: none;
 }
 
-/* Break topics inside. */
+/* Break topics inside.
 article {
 break-inside: auto;
-}
-/* Do not break chapter-level topics. */
+} */
+/* Do not break chapter-level topics.
 article:has(.topictitle1) {
 break-inside: avoid;
-}
+} */
