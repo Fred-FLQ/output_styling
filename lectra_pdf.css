@@ -519,3 +519,9 @@ break-inside: auto;
 article:has(.topictitle1) {
 break-inside: avoid;
 }
+
+/* Decorate links in the document body. */
+.xref,
+.link {
+text-decoration: underline;
+}
