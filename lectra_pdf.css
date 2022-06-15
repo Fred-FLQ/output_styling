@@ -336,7 +336,8 @@ article > .topictitle1 {
 .note > .image,
 .context > .image,
 .shortdesc > .image,
-.li > .p > .image {
+.li > .p > .image,
+.uicontrol > .image {
   display: inline-block;
   max-height: 14px;
   border: none;
