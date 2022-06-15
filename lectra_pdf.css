@@ -334,6 +334,7 @@ article > .topictitle1 {
 .body > .p > .image,
 .stepresult > .image,
 .note > .image,
+.note > .p > .image, /* Added on 2022/06/15 */
 .context > .image,
 .shortdesc > .image,
 .li > .p > .image,
