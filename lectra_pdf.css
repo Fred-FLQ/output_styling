@@ -340,7 +340,8 @@ article > .topictitle1 {
 .shortdesc > .image,
 .li > .p > .image,
 .li > .image, /* Added on 2022/06/15 */
-.uicontrol > .image {
+.title > .image, /* Added on 2022/06/27 */
+.uicontrol > .image { 
   display: inline-block;
   max-height: 14px;
   border: none;
