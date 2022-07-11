@@ -529,3 +529,8 @@ break-inside: avoid;
 .link {
 text-decoration: underline;
 }
+
+/* Output Class for empasizing elements */
+.mise-en-exergue {
+    font-weight: bold;
+}
