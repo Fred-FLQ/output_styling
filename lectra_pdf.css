@@ -114,6 +114,18 @@
 
 /*=================
   - BREAKS p. 42 (inherit)
+  =================*/ 
+
+/* Break topics inside. */
+article {
+break-inside: auto;
+}
+/* Do not break chapter-level topics. */
+article:has(.topictitle1) {
+break-inside: avoid;
+}
+
+/*=================
   - BLANKS p. 50 (disabled)
   - COLUMNS p. 53 (inherit - use @outputclass attributes to activate)
   - FULLPAGE p. 59 (inherit - use @outputclass attributes to activate)
@@ -513,15 +525,6 @@ tr > td {
 .stepxmp::before,
 .example::before {
     display: none;
-}
-
-/* Break topics inside. */
-article {
-break-inside: auto;
-}
-/* Do not break chapter-level topics. */
-article:has(.topictitle1) {
-break-inside: avoid;
 }
 
 /* Decorate links in the document body. */
