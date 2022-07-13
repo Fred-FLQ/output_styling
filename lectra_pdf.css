@@ -121,9 +121,9 @@ article {
 break-inside: auto;
 }
 /* Do not break chapter-level topics. */
-article:has(.topictitle1) {
-break-inside: avoid;
-}
+/* article:has(.topictitle1) { */
+/* break-inside: avoid; */
+/* } */
 
 /*=================
   - BLANKS p. 50 (disabled)
