@@ -116,11 +116,15 @@
   - BREAKS p. 42 (inherit)
   =================*/ 
 
-/* Break topics inside. */
+/* Break topics inside to reduce quantity of pages */
 article {
 break-inside: auto;
 }
 
+/* Do not break chapter-level topics */
+article:has(.topictitle1) {
+        break-inside: avoid;
+}
 
 
 /*=================
