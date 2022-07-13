@@ -116,16 +116,7 @@
   - BREAKS p. 42 (inherit)
   =================*/ 
 
-/*=================
-/* Break topics inside. */
-article {
-break-inside: auto;
-}
-/* Do not break chapter-level topics. */
-/* article:has(.topictitle1) { */
-/* break-inside: avoid; */
-/* } */
-  =================*/ 
+
 
 /*=================
   - BLANKS p. 50 (disabled)
