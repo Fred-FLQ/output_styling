@@ -116,6 +116,7 @@
   - BREAKS p. 42 (inherit)
   =================*/ 
 
+/*=================
 /* Break topics inside. */
 article {
 break-inside: auto;
