@@ -126,6 +126,11 @@ article:has(.topictitle1) {
         break-inside: avoid;
 }
 
+/* Do not related links lists added with reltable */
+.related-links {
+  break-inside: avoid;
+}
+
 
 /*=================
   - BLANKS p. 50 (disabled)
