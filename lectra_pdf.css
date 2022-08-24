@@ -349,7 +349,7 @@ article > .topictitle1 {
   - FIGURE IMAGE 
   =================*/
 
-/* Style inline images (except in commands already done in source CSS) - TEST : removed .stepresult  img, from list below */
+/* Style inline images (TEST : removed .stepresult  img, from list below) */
 .body > .p > .image,
 .section > .p > .image, /* Added on 2022/06/15 */
 .stepresult > .image,
@@ -360,7 +360,9 @@ article > .topictitle1 {
 .li > .p > .image,
 .li > .image, /* Added on 2022/06/15 */
 .title > .image, /* Added on 2022/06/27 */
-.uicontrol > .image { 
+.uicontrol > .image,
+.cmd > .image,
+.cmd  img{ 
   display: inline-block;
   max-height: 14px;
   border: none;
