@@ -358,7 +358,7 @@ article > .topictitle1 {
 .context > .image,
 .shortdesc > .image,
 .li > .p > .image,
-.li > .cmd > .p > .image, /* Added on 2022/08/24 */
+.info > .p > .image, /* Added on 2022/08/24 */
 .li > .image, /* Added on 2022/06/15 */
 .title > .image, /* Added on 2022/06/27 */
 .uicontrol > .image,
